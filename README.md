@@ -32,7 +32,7 @@ Ensure `nmcli` and `bluetoothctl` are installed on your Linux system, as the app
    cd Wifi_bluetooth_controller/src
 3. Compile
    ```bash
-   g++ -o wifi-bluetooth-control *.cpp
+   g++ -std=c++17 -o wifi-bluetooth-control *.cpp
 4. Run
    ```bash
    ./wifi-bluetooth-control
