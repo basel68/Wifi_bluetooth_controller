@@ -26,4 +26,15 @@ Ensure `nmcli` and `bluetoothctl` are installed on your Linux system, as the app
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/basel68/Wifi_bluetooth_controller.git
+2. Navigate to the dir
+   ```bash
+   cd Wifi_bluetooth_controller/src
+3. Compile
+   ```bash
+   g++ -o wifi-bluetooth-control *.cpp
+4. Run
+   ```bash
+   ./wifi-bluetooth-control
+
+
